@@ -1,0 +1,25 @@
+{
+  "name": "Constructor-Hangman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjay13/Constructor-Hangman.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjay13/Constructor-Hangman/issues"
+  },
+  "homepage": "https://github.com/mjay13/Constructor-Hangman#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "request": "^2.83.0",
+    "require": "^2.4.20"
+  }
+}
