@@ -17,3 +17,6 @@
 // 5. Look into [function prototypes]
 		// (https://www.thecodeship.com/web-development/methods-within-constructor-vs-prototype-in-javascript/) 
 		// and use them for a few of your constructor's methods.
+
+
+// call game functions from other files
