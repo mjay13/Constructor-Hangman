@@ -30,7 +30,7 @@ var fs = require("fs");
 //         // show Lippizaner!!
 //         // fs.readFile("./Lipizzaner.txt", "utf8", function(error, data){
 //           //if error throw error
-//           // console.log(chalk.cyan(data));
+//           // console.log(color.cyan(data));
 //         // }
 
 //       // game is lost
