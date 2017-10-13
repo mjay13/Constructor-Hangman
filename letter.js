@@ -5,36 +5,46 @@
 // This should contain letter specific logic and data.
 
 // packages to call
-var inquirer = require("inquirer");
+//var inquire = require("inquirer");
 var color = require("chalk");
 var fs = require("fs");
 
-// files to reference
-var THEword = require("./word.js");
+// // files to reference
+// var THEword = require("./word.js");
 
 
 
 
-var Letter = function(){
-  // switch statement
-      // game needs to be played:
-        // prompt
-            // guess letters
-            // promise
-                // for loop
-                // if correct
-                // if not 
-            // callback
+// var Letter = function(){
+//   // switch statement
+//       // game needs to be played:
+//         // prompt
+//             // guess letters
+//             // promise
+//                 // for loop
+//                 // if correct
+//                 // if not 
+//             // callback
 
-      // game is won
-        // show Lippizaner!!
-        // fs.readFile("./Lipizzaner.txt", "utf8", function(error, data){}
+//       // game is won
+//         // show Lippizaner!!
+//         // fs.readFile("./Lipizzaner.txt", "utf8", function(error, data){
+//           //if error throw error
+//           // console.log(chalk.cyan(data));
+//         // }
 
-      // game is lost
-        // exit
+//       // game is lost
+//         // exit
           
-};
+// };
 
 
-// exporting
-module.exports = Letter;
+// // exporting
+// module.exports = Letter;
+
+// test
+
+fs.readFile("./Lipizzaner.txt", "utf8", function(error, data){
+          // if error throw error
+          console.log(color.cyan(data));
+        });
