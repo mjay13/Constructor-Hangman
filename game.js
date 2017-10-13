@@ -20,3 +20,8 @@
 
 
 // call game functions from other files
+
+var Word = require("./word.js");
+var hangman = new Word();
+
+hangman.emptyWord();
