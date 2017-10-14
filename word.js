@@ -39,7 +39,7 @@ var Word = function () {
 	// function for the game
 	this.gameStart = function () {
 		// calls from letter.js the prompts and such
-		Letter.guess();
+		Guess.guess();
 	};
 
 

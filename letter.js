@@ -46,7 +46,7 @@ var Letter = function() {
 
         } else if (Word.guessesRemaining <= 0) {
             console.log("Too bad, the breed was " + Word.selector);
-            inq.prompt({
+            inquire.prompt({
                 name: "replay_option",
                 message: color.green("Want to play again?"),
                 type: "list",
@@ -59,7 +59,7 @@ var Letter = function() {
                 }
             });
         } else {
-            inq.prompt({
+            inquire.prompt({
                 name: "letter_guess",
                 message: "Please guess a letter.",
                 type: "input"
@@ -106,7 +106,6 @@ var Letter = function() {
 
 // // exporting
 module.exports = Letter;
-module.exports = Letter.guess();
 
 
 
