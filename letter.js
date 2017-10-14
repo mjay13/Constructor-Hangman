@@ -90,7 +90,7 @@ var Letter = function() {
                         console.log(color.yellow(">>>>>>>>>>>>>>>>>>>>>>>>>>>"));
                         console.log(color.inverse(Word.guessesRemaining + " guesses left--be cautious!"));
                     }
-                    this.guess();
+                    Letter();
                 }
             });
             // end of else
